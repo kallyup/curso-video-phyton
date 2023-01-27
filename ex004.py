@@ -1,0 +1,7 @@
+teste = input('digite algo: ')
+print('é alfa numerico? ', teste.isalnum())
+print('é alfa?', teste.isalpha())
+print('é lower case?', teste.islower())
+print(teste.isdecimal())
+print(teste.isspace())
+print(teste.isupper())

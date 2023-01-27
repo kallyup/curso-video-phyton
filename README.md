@@ -1,2 +1,2 @@
-# curso-video-phyton
-exercícios de phyton
+# curso-video-python
+exercícios de python
