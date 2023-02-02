@@ -10,6 +10,6 @@ ano = int(input('que ano quer saber? '))
 if ano == 0:
     ano = date.today().year
 if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print('ano é bissexto')
+    print('{}{}{} é bissexto'.format('\033[0;36;41m', ano, '\033[m'))
 else:
-    print('ano não é bissexto')
+    print('{}{}{} não é bissexto'.format('\033[4;37;43m', ano, '\033[m'))
