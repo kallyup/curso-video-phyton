@@ -4,3 +4,8 @@ while acertou == False:
     if s == 'm' or s == 'f':
         acertou = True
 print(s)
+
+'''sexo = str(input('informe seu sexo:')).split().upper()[0]
+while sexo not in 'MmFm':
+    sexo = str(input('dados invalidos'))
+print(sexo)'''
