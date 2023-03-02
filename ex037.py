@@ -1,3 +1,4 @@
+
 num = int(input('digite um numero'))
 print('''escolah uma das bases para conversão:
 [ 1 ] converter para BINÁRIO
