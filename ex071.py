@@ -5,7 +5,7 @@ totced = 0
 while True:
     if total >= ced:
         total -= ced
-        totced +=1
+        totced += 1
     else:
         if totced > 0:
             print(f'Total de {totced} cedulas de {ced}')
