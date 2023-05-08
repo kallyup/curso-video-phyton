@@ -10,4 +10,16 @@ for comida in lanche:
 print('comi pra caramba')
 for pos, comida in enumerate(lanche):
     print(f'eu vou comer {comida} na posição {pos}')
+
 '''
+
+
+numeros = ('zero', 'um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez')
+usuario = int(input('digite um número entre 0 e 10 : '))
+parar = False
+while parar == False:
+    if 10 >= usuario >= 0:
+        print(numeros[usuario])
+        parar = True
+    else:
+        usuario = int(input('digite um número entre 0 e 10 : '))
