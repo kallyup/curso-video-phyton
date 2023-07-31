@@ -19,7 +19,7 @@ palavra = frase.split()
 junto = ''.join(palavra)
 invero = ''
 for letra in range(len(junto)-1, -1, -1):
-    inverso += juntp[letra]
+    inverso += junto[letra]
 if inverso == junto:
     print('temos um palindromo')
 else:
